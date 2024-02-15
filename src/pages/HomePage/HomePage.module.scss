@@ -14,4 +14,25 @@
   @include mixin.xs {
     background-image: url("../../assets/images/home/background-home-mobile.jpg");
   }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 120rem;
+    align-items: flex-end;
+
+    .left {
+      h5 {
+        color: var(--Cian);
+      }
+
+      p {
+        color: var(--Cian);
+      }
+    }
+
+    .right {
+
+    }
+  }
 }
