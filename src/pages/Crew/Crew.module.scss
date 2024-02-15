@@ -1,0 +1,17 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/images/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+
+  @include mixin.sm {
+    background-image: url("../../assets/images/crew/background-crew-tablet.jpg");
+  }
+
+  @include mixin.xs {
+    background-image: url("../../assets/images/crew/background-crew-mobile.jpg");
+  }
+}

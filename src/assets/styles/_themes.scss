@@ -1,0 +1,13 @@
+.btn {
+  background: none;
+  border: none;
+  color: var(--White);
+  cursor: pointer;
+  font-family: var(--Title);
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+}
+
+.active {
+  border-bottom: 1px solid var(--White);
+}

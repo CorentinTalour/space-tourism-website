@@ -1,0 +1,53 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.navContainer {
+  position: relative;
+  padding: 8rem 0 8rem 5.5rem;
+
+  @include mixin.xs {
+    padding: 2rem;
+    justify-content: space-between;
+  }
+
+  .ulContainer {
+    display: flex;
+    flex: 1.5;
+    padding: 4rem;
+    justify-content: center;
+    background-color: hsla(0, 0%, 100%, .05);
+    backdrop-filter: blur(30px);
+    gap: 10rem;
+
+    @include mixin.xs {
+      display: none;
+    }
+  }
+
+  hr {
+    z-index: 1;
+    flex: 1;
+    margin-right: -2rem;
+    margin-left: 5rem;
+    color: white;
+    border-color: rgb(255 255 255/ 0.25);
+
+    @include mixin.xs {
+      display: none;
+    }
+  }
+
+  .headerXs {
+    display: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    @include mixin.xs {
+      display: flex;
+    }
+  }
+}
+
