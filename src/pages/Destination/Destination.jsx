@@ -11,8 +11,8 @@ function Destination() {
     return (
         <div className={`${styles.background}`}>
             <NavBar/>
-            <section className={`${styles.test} d-flex`}>
-                <h5 className={`mb-100`}><span className={`mr-30`}>01</span> PICK YOUR DESTINATION</h5>
+            <section className={`d-flex`}>
+                <h5 className={`mb-100`}><span className={`mr-30`}>01</span>PICK YOUR DESTINATION</h5>
                 <div className={`${styles.container} d-flex`}>
                     <article className={`${styles.left} d-flex`}>
                         <img src={images.png} alt={name} title={name}/>
