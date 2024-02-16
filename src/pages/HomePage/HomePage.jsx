@@ -8,8 +8,8 @@ function HomePage() {
             <NavBar/>
             <div className={`${styles.container}`}>
                 <div className={`${styles.left}`}>
-                    <h5 className={``}>SO, YOU WANT TO TRAVEL TO</h5>
-                    <h1>SPACE</h1>
+                    <h5 className={`mb-30`}>SO, YOU WANT TO TRAVEL TO</h5>
+                    <h1 className={`mb-30`}>SPACE</h1>
                     <p>
                         Let's face; if you want to go to space, you might as well genuinely go to outer space and not
                         hover
