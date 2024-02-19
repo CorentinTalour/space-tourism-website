@@ -14,7 +14,7 @@ function Destination() {
             <section className={`d-flex`}>
                 <h5 className={`mb-100`}><span className={`mr-30`}>01</span>PICK YOUR DESTINATION</h5>
                 <div className={`${styles.container} d-flex`}>
-                    <article className={`${styles.left} d-flex`}>
+                    <article className={`${styles.left} d-flex mr-160`}>
                         <img src={images.png} alt={name} title={name}/>
                     </article>
                     <article className={`${styles.right} d-flex`}>
