@@ -23,7 +23,7 @@ function Crew() {
                                 <ul>
                                     {people.map((item, index) => (
                                         <button key={index} onClick={() => setValue(index)}
-                                                className={`mr-40 mb-40`}><i className="fa-solid fa-circle"></i>
+                                                className={`mr-40 mb-40`}>
                                         </button>
                                     ))}
                                 </ul>
